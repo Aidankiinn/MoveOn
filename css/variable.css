@@ -1,0 +1,34 @@
+:root {
+    --main-size: 18px;
+    --footer-title-size: 28px;
+    --function-title-size: 22px;
+    --nav-size: 20px;
+    --main-title-size: 48px;
+
+    --main-font: 'Jost', sans-serif;
+
+    --main-color: #ffffff;
+    --secondary-color: #000000;
+    --function-text-color: #B0B0B0;
+}
+@media screen and (max-width: 990px) {
+    :root {
+        --main-title-size: 40px;
+        --nav-size: 18px;
+    }
+}
+@media screen and (max-width: 770px) {
+    :root {
+        --main-title-size: 38px;
+        --nav-size: 16px;
+    }
+}
+@media screen and (max-width: 500px) {
+    :root {
+        --main-title-size: 28px;
+        --main-size: 14px;
+        --footer-title-size: 22px;
+        --function-title-size: 18px;
+        --nav-size: 18px;
+    }
+}
